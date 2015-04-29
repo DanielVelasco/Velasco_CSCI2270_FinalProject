@@ -1,5 +1,6 @@
 # Velasco_CSCI2270_FinalProject
 -What
+
 Final Project
 
 -Why
@@ -18,17 +19,21 @@ Windows/Mac/Linux terminal
 -Dependencies
 
 main.cpp
+
 FinalProject.h
+
 FinalProject.cpp
 
 -Group Members
 
 David Kessler
+
 Daniel Velasco
 
 -Contributors
 
 David Kessler
+
 Daniel Velasco
 
 
