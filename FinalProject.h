@@ -123,7 +123,7 @@ public:
                 if(cur->Lname == LnameIn)
                 {
 
-                cout << "yolo" << endl;
+               
                     if(cur->next == NULL && cur->previous == NULL)
                     {
                         head = cur;
@@ -131,7 +131,7 @@ public:
                     }
                     if(cur == head && cur != tail)
                     {
-                        cout << "1" << endl;
+                        
 
                         Employee *temp = new Employee(cur->next->Fname,cur->next->Lname,cur->next->reviews,cur->next->lastControbution,cur->next->position,cur->next->age,cur->next->yearEmployed);
                         Employee *NodeDel = head->next;
@@ -155,7 +155,7 @@ public:
                     }
                     else if(cur != head && cur != tail)
                     {
-                        cout << "2" << endl;
+                       
                         Employee *NodeDel = cur;
                         cur->previous->next = cur->next;
                         cur->next->previous = cur->previous;
@@ -164,7 +164,7 @@ public:
                     else if(cur == tail && cur != head)
                     {
                         Employee *NodeDel = cur;
-                        cout << "3" << endl;
+                      
                         cur->previous->next = NULL;
                         tail = cur->previous;
                         delete NodeDel;
@@ -172,7 +172,7 @@ public:
                     }
                     else if(cur == head && cur == tail)
                     {
-                        cout << "4" << endl;
+                   
                         cur->Lname = "headDel";
                         head = NULL;
                         tail = NULL;
