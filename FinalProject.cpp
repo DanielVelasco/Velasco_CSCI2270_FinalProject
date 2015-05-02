@@ -1,4 +1,5 @@
 #include "FinalProject.h"
+#include "Directory.h"
 #include <vector>
 #include <iostream>
 
@@ -16,7 +17,6 @@ HashTable::HashTable(int amountOfEmployees)
 {
 InitArray = new Directory[amountOfEmployees]; //initializes the movielist array
 }
-
 
 void HashTable::insertEmployee(string FnameIn,string LnameIn,string reviewsIn,string lastControbutionIn,string positionIn,int ageIn, int yearEmployedIn)
 {

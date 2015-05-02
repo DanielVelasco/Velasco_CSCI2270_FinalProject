@@ -1,4 +1,5 @@
 #include "FinalProject.h"
+#include "Directory.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
